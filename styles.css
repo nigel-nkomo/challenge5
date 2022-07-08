@@ -1,0 +1,47 @@
+body {
+    font-family: Arial, Helvetica, sans-serif
+}
+
+div#header {
+    margin-top: 70px;
+}
+
+blockquote {
+    display: inline;
+    float: right;
+}
+
+blockquote p {
+    font-size: 40px;
+    margin: 0;
+    font-style: italic;
+}
+
+div#logo h1 {
+    display: inline;
+    float: right;
+    clear: right;
+    margin: 0;
+    padding: 20px 50px 0 0;
+    visibility: hidden;
+}
+
+div#content {
+    margin-top: 50px;
+}
+
+div#content > div#content-side {
+    float: left;
+    width: 25%;
+    margin-right: 5%;
+}
+
+div#content-main {
+    display: inline-block;
+    width: 70%;
+    margin: 0;
+}
+
+div#content-main h2 {
+    margin: 0;
+}
